@@ -1,0 +1,25 @@
+
+.main {
+  width:885px;
+  height:816px;
+  background-color: grey;
+  overflow-y: scroll;
+  padding-top:05%; 
+}
+
+.leftcol {
+  display: inline-block;
+  width:350px;
+  height:804px;
+  box-sizing:border-box;
+  position: relative;
+}
+
+.rightcol {
+  display: inline-block;
+  width:350px;
+  height:874px;
+  float:right;
+  box-sizing:border-box;
+  position: relative;
+}
