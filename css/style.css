@@ -12,6 +12,9 @@ body, html {
 body {
   background-color: #fafafa;
   display: block;
+  margin: 10px;
+  box-sizing: border-box;
+  float: center;
 }
 
 .rightbanner {
@@ -49,6 +52,7 @@ body {
   padding-top:30px;
   flex: auto;
   padding-left: 15%;
+  align:center;
 
 }
 
