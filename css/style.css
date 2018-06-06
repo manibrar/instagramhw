@@ -4,8 +4,14 @@ font-family: "Miama";
 src: url("Miama.otf");
 }
 
+body, html {
+    height: 100%;
+}
+
+
 body {
-  background-color: #fafafa;;
+  background-color: #fafafa;
+  display: block;
 }
 
 .rightbanner {
@@ -141,17 +147,18 @@ body {
 }
 
 .or {
-  margin: -07% 0;
+  margin: -05% 03%;
+  padding-bottom: -07%;
 }
 
 .login {
   text-align: center;
   font-size: 0.9em;
-  margin-top:15%;
+  margin-top:10%;
   background-color:white;
   color:  #262626;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 15px;
   border: 1px solid lightgrey;
   width: 350;
 }
