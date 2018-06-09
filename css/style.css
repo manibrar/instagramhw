@@ -1,4 +1,8 @@
 
+.mc {
+  display: inline-block;
+}
+
 .w100 {
   width: 82%;
   padding:4px 0px 0px 4px;
@@ -22,8 +26,7 @@
 }
 
 .pad {
-  padding-top: 3%;
-  position: relative;
+  padding-top: 8%;
 }
 
 .mp {
@@ -41,11 +44,12 @@
 }
 
 #phones {
-  padding: 40% 0 0 10%;
+  padding: 100% 0 0 10%;
 }
 
 .ftr {
-  padding-top:8%;
+  padding:8% 0;
+  text-align: justify;
 }
 
 .gta {
@@ -57,9 +61,22 @@
   text-overflow: ellipsis;
 }
 
+.mr {
+  align-items: center;
+  width:100%;
+}
+
 #carousel img {
   width:240px;
   height:427px;
   perspective-origin: top;
   display: inline-block;
+}
+
+@media screen and (max-width:850px) {
+  .phoneban {
+    display: none;
+    margin-left: 10%;
+  }
+
 }
