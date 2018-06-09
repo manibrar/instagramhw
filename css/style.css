@@ -73,10 +73,9 @@
   display: inline-block;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:900px) {
   .phoneban {
     display: none;
-    margin-left: 10%;
   }
 
 }
